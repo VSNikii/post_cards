@@ -1,0 +1,24 @@
+.quote{
+    margin-top: 300px;
+    .img{
+        width: 30%;
+        margin-right: 0;
+
+    }
+    .words{
+        margin-left: 0;
+        background-color: #F5EEE6;
+        width: 70%;
+        svg{
+            padding-top: 50px;
+        }
+        h2{
+            text-align: center;
+            font-size: 43px;
+            width: 420px;
+            font-weight: 400;
+            color: var(--text-main);
+            margin-bottom: 50px;
+        }
+    }
+}

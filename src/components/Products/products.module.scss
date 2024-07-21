@@ -1,0 +1,27 @@
+.products{
+    margin-top: 200px;
+    h1{
+        margin-left: 293px;
+        font-size: 52px;
+        font-weight: 400;
+        color: var(--text-main);
+    }
+    
+}
+.item{
+    margin-right: 15px;
+    &:first-child{
+    background-color: #F9E9E0;
+    }
+    &:nth-child(2){
+        background-color: #E9EDEE;
+    }
+    &:last-child{
+        background-color: #F5EFEF;
+    }
+    p{
+        font-size: 23px;
+        color: var(--text-main);
+        
+    }
+}

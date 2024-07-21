@@ -1,0 +1,57 @@
+
+.wrapper{
+    max-height: 1080px;
+    
+    .text{
+        position: absolute;
+        top: 500px;
+        left: 100px;
+        h1{
+            font-size: 65px;
+            font-weight: 400;
+            margin-top: 15px;
+            color: var(--text-main);
+        }
+        h6{
+            text-transform: uppercase;
+            letter-spacing: -0.3px;
+            line-height: 1.5;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 0;
+            color: var(--text-main);
+        }
+        .btn-buy{
+            position: relative;
+            padding: 20px 90px;
+            border-radius: 1.2em;
+            border: 0;
+            background-color: var(--btn-bg);
+            color: var(--btn-text);
+            font-size: 15px;
+            font-weight: 400;
+            cursor: pointer;
+            transition: opacity 0.3s ease-in-out;
+            &:hover{
+                opacity: 0.8;
+                img{
+                    transform: translateX(10px);
+                }
+            }
+            img{
+                position: absolute;
+                top: 21px;
+                transition: transform 0.3s ease-in-out;
+            }
+        }
+    }
+    .background{
+        width: clamp(1100px, 1980px, 3840px);
+        height: clamp(700px, 1080px, 2840px);
+    }
+    .square{
+       position: absolute;
+       top: 1100px;
+       right: 460px;
+    }
+}

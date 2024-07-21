@@ -1,0 +1,53 @@
+.birthday {
+    .birthday-main {
+        width: 504px;
+
+        button {
+            position: relative;
+            padding: 15px 70px;
+            border-radius: 1.6em;
+            border: 1px solid #212806;
+            background-color: #fff;
+            color: var(--text-main);
+            font-size: 15px;
+            font-weight: 400;
+            cursor: pointer;
+            transition: opacity 0.3s ease-in-out;
+
+            &:hover {
+                opacity: 0.8;
+
+                svg {
+                    transform: translateX(10px);
+                }
+            }
+
+            svg {
+                position: absolute;
+                top: 16px;
+                right: 25px;
+                transition: transform 0.3s ease-in-out;
+            }
+        }
+    }
+
+    .birthday-text {
+
+        h1 {
+            font-size: 41px;
+            font-weight: 400;
+            color: var(--text-main);
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.2;
+            color: #212806CC;
+            font-size: 16px;
+        }
+    }
+
+    img {
+        margin-left: 150px;
+    }
+}

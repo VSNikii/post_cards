@@ -1,0 +1,43 @@
+.title{
+    margin-top: 200px;
+    color: var(--text-main);
+    font-size: 23px;
+    margin-bottom: 100px;
+}
+
+.advantage{
+    width: 302px;
+    p{
+        font-size: 25px;
+        text-align: center;
+        color: var(--text-main);
+    }
+}
+.shopNow{
+    margin-top: 100px;
+    position: relative;
+    padding: 20px 90px;
+    border-radius: 1.2em;
+    border: 0;
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover {
+        opacity: 0.8;
+
+        svg {
+            transform: translateX(10px);
+        }
+    }
+
+    svg {
+        position: absolute;
+        top: 22px;
+        right: 30px;
+        transition: transform 0.3s ease-in-out;
+    }
+}

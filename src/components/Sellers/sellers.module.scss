@@ -1,0 +1,68 @@
+.sell{
+    margin-top: 300px;
+    .shopIn{
+        position: relative;
+        padding: 20px 70px;
+        border-radius: 1.7em;
+        border: 0;
+        background-color: var(--btn-bg);
+        color: var(--btn-text);
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: opacity 0.3s ease-in-out;
+
+        &:hover {
+            opacity: 0.8;
+
+            svg {
+                transform: translateX(10px);
+            }
+        }
+
+        svg {
+            position: absolute;
+            top: 22px;
+            right: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+    }
+    
+    .txt-block{
+        justify-content: space-between;
+        text-align: left;
+        margin-left: 70px;
+        width: 342px;
+        button{
+            margin-bottom: 50px;
+        }
+        h1{
+            color: var(--text-main)
+        }
+        p{
+            color: #212806CC;
+            line-height: 2;
+        }
+    }
+    .card-block{
+        width: 1100px;
+        color: var(--text-main);
+
+    .card{
+        cursor: pointer;
+        margin: 10px;
+        text-align: center;
+        h3{
+            font-size: 23px;
+            font-weight: 400;
+            margin: 10px;
+        }
+        p{
+            font-size: 12px;
+        }
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}
+}

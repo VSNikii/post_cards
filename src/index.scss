@@ -1,0 +1,36 @@
+@import url(./components/Nav/nav.module.scss);
+@import url(./components/Header/header.module.scss);
+@import url(./components/Slogan/slogan.module.scss);
+@import url(./components/Sellers/sellers.module.scss);
+@import url(./components/Quote/Quote.module.scss);
+@import url(./components/Advantages/advantages.module.scss);
+@import url(./components/Birthday/birthday.module.scss);
+@import url(./components/Products/products.module.scss);
+@import url(./components/Footer/footer.module.scss);
+
+
+:root{
+  --main-font: Roboto;
+  --page-color: #fff;
+  --text-nav: #222222;
+  --page-two-color: #F5EEE6;
+  --text-main: #212806;
+  --btn-bg: #212806;
+  --btn-text: #FCF8F3;
+  --border-btn: #212806;
+  --footer-bg: #212806;
+  --footer-text: #FCF8F3CC;
+  --footer-border: #FCF8F380;
+  --border-hover: #617a00;
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  overflow-x: hidden;
+}
+
+.imgEnd{
+  margin-left: 200px;
+}

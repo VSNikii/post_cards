@@ -1,0 +1,40 @@
+.slogan {
+    text-align: center;
+    width: 900px;
+    margin-top: 300px;
+    margin-left: 460px;
+
+    h1 {
+        font-size: 54px;
+        font-weight: 400;
+        color: var(--text-main);
+    }
+
+    .Sustain {
+        position: relative;
+        padding: 20px 90px;
+        border-radius: 1.2em;
+        border: 0;
+        background-color: var(--btn-bg);
+        color: var(--btn-text);
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: opacity 0.3s ease-in-out;
+
+        &:hover {
+            opacity: 0.8;
+
+            svg {
+                transform: translateX(10px);
+            }
+        }
+
+        svg {
+            position: absolute;
+            top: 22px;
+            right: 40px;
+            transition: transform 0.3s ease-in-out;
+        }
+    }
+}
